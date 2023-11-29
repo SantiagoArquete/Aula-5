@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#capa{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    width: 700px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.titulo{
+    font-size: 60px;
+
+}
+
+.paragrafo{
+    margin-bottom: 30px;
+}
+
+.botao{
+    text-decoration: none;
+    color: black;
+    background-color: greenyellow;
+    padding: 10px 20px;
+}
+
+#projeto{
+    height: 70vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.flex{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.item{
+    width: 50%;
+}
+
+.item img{
+    width: 100%;
+}
+
+.icone{
+    display: flex;
+    gap: 20px;
+}
+
+#metas{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.centralizar{
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 600px) {
+    .titulo{
+        font-size: 30px
+    }
+
+    #capa{
+        height: 70vh;
+    }
+
+    #projeto{
+        padding: 40px 0;
+    }
+
+    .flex{
+        flex-direction: column;
+    }
+
+    .item{
+        width: 100%;
+    }
+}
